@@ -6,7 +6,7 @@ echo "Compress into rar - 2"
 echo "Uncompress rar file - 3"
 read OPTION
 
-if [ $OPTION -eq 1  ] || [ $OPTION -eq 2 ]
+if [ $OPTION -eq 1  ] || [ $OPTION -eq 3 ]
 then
 	echo "Name the file & location"
 	read RARFILE
